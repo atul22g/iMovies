@@ -4,30 +4,15 @@
   box-sizing: border-box;
 }
 header {
-  width: 100vw;
-  height: fit-content;
-  background: url(/img/banner/1.jpg);
+  width: 100%;
+  height: 300px;
   background-size: 100% 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  animation: change 10s linear infinite;
   justify-content: center;
-  color: brown;
-}
-@keyframes change {
-  0% {
-    background-image: url(/img/banner/1.jpg);
-  }
-  40% {
-    background-image: url(/img/banner/2.jpg);
-  }
-  80% {
-    background-image: url(/img/banner/3.jpg);
-  }
-  100% {
-    background-image: url(/img/banner/4.jpg);
-  }
+  background-color: black;
+  color: snow;
 }
 
 header h1 {
@@ -38,24 +23,28 @@ header h1 {
 header p {
   text-align: center;
   font-size: 1.5em;
-  width: 90%;
+  /* width: 90%; */
 }
 
 header button {
   margin: 20px;
   padding: 10px 15px;
   border-radius: 20px;
-  background-color: rgb(68, 66, 66);
-  color: snow;
+  background-color: snow;
+  font-weight: bolder;
+  color: black;
+}
+header button:hover {
+  background-color: rgb(150, 148, 148);
 }
 
-main{
-    width: 100%;
-    height: 100%;
+main {
+  width: 100%;
+  height: 100%;
 }
 
 main h2 {
-  margin-top: 20px;
+  padding-top: 20px;
   font-size: xx-large;
   text-align: center;
 }
@@ -72,11 +61,7 @@ main .about_me {
   align-items: center;
   justify-content: space-between;
 }
-@media (max-width: 800px) {
-  main .about_me {
-    flex-direction: column;
-  }
-}
+
 main .about_me .text h2 {
   text-align: center;
   font-size: xx-large;
@@ -98,10 +83,15 @@ main .about_me button {
   padding: 5px 20px;
 }
 
+@media (max-width: 800px) {
+  main .about_me {
+    flex-direction: column;
+  }
+}
+
 main .cards_con {
   width: 100%;
-  height: 400px;
-  /* background: darkcyan; */
+  height: fit-content;
 }
 main .cards_con h2 {
   padding: 10px 20px;
@@ -114,25 +104,34 @@ main .cards_con hr {
 }
 
 main .cards_con .cards {
-  margin: auto;
   width: 100%;
   height: fit-content;
   display: flex;
-  overflow-x: scroll;
-
-  /* background-color: aqua; */
+  overflow: scroll;
 }
 
 main .cards_con .cards::-webkit-scrollbar {
-    display: none;
-  }
+  display: none;
+}
 
 main .cards_con .cards .card {
-  width: fit-content;
-  /* background-color: bisque; */
+  height: fit-content;
+  width: 100%;
+  height: fit-content;
   margin: 10px;
 }
 
 main .cards_con .cards .card figcaption {
   text-align: center;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+footer {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: snow;
 }
