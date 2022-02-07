@@ -80,7 +80,15 @@ main .about_me img {
 main .about_me button {
   display: block;
   margin: 10px auto;
-  padding: 5px 20px;
+  padding: 8px 20px;
+  background-color: black;
+  color: snow;
+  font-weight: bolder;
+  border-radius: 20px;
+}
+
+main .about_me button:hover{
+background-color: rgb(49, 47, 47);
 }
 
 @media (max-width: 800px) {
