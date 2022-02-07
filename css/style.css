@@ -16,6 +16,7 @@ header{
 
 .top {
   width: 100%;
+  padding: 0 20px;
   height: fit-content;
   background-size: 100% 100%;
   display: flex;
@@ -26,32 +27,15 @@ header{
   color: snow;
 }
 
-.top h1 {
-  margin-top: 30px;
+.top h2 {
   text-align: center;
-  font-size: 2em;
-  width: 90%;
 }
 .top p {
   text-align: center;
-  font-size: 1em;
+  font-size: 1.2em;
   margin-top: 10px;
-}
-
-.top button {
-  margin: 20px;
-  padding: 10px 15px;
-  border-radius: 20px;
   margin-bottom: 30px;
-  background-color: snow;
-  font-weight: bolder;
-  cursor: pointer;
-  color: black;
 }
-.top button:hover {
-  background-color: rgb(150, 148, 148);
-}
-
 main {
   width: 100%;
   height: 100%;
@@ -67,7 +51,7 @@ main .cards_con h2 {
   text-align: left;
 }
 main .cards_con hr {
-  width: 97%;
+  width: 98%;
   margin: auto;
 }
 
