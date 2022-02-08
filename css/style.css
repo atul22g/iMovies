@@ -28,11 +28,12 @@ header{
 }
 
 .top h2 {
+  font-size: xx-large;
   text-align: center;
 }
 .top p {
   text-align: center;
-  font-size: 1.2em;
+  font-size: larger;
   margin-top: 10px;
   margin-bottom: 30px;
 }
@@ -44,6 +45,8 @@ main {
 main .cards_con {
   width: 100%;
   height: fit-content;
+  background-color: black;
+  color: snow;
 }
 main .cards_con h2 {
   padding: 10px 20px;
@@ -61,6 +64,10 @@ main .cards_con .cards {
   display: flex;
   overflow: scroll;
 }
+main .cards_con .cards a {
+  text-decoration: none;
+  color: snow;
+}
 
 main .cards_con .cards::-webkit-scrollbar {
   display: none;
@@ -75,6 +82,8 @@ main .cards_con .cards .card {
 
 main .cards_con .cards .card figcaption {
   text-align: center;
+  font-weight: bolder;
+  font-size: larger;
   padding-bottom: 10px;
   font-weight: bold;
 }
