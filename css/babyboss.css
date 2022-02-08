@@ -8,7 +8,7 @@
   color: snow;
 }
 .head .img_banner {
-  border-radius: 10%;
+  border-radius: 15%;
   padding: 20px;
 }
 .head .banner_text {
@@ -66,11 +66,14 @@
     padding: 30px;
 }
 .download a button{
-    padding: 6px 15px;
+    padding: 10px 50px;
     cursor: pointer;
     font-size: large;
     background-color: black;
     color: snow;
     margin-bottom: 30px;
     border-radius: 20px;
+}
+.download a button:hover{
+  background-color: rgb(26, 24, 24);
 }
