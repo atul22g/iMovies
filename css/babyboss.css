@@ -12,7 +12,8 @@
   padding: 20px;
 }
 .head .banner_text {
-  padding: 0 50px;
+  padding: 0 5px;
+  margin-right: 4px;
 }
 
 .head .banner_text h2 {
@@ -75,5 +76,5 @@
     border-radius: 20px;
 }
 .download a button:hover{
-  background-color: rgb(26, 24, 24);
+  background-color: rgb(10, 10, 10);
 }

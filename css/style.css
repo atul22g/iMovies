@@ -14,29 +14,6 @@ header{
   color: snow;
 }
 
-.top {
-  width: 100%;
-  padding: 0 20px;
-  height: fit-content;
-  background-size: 100% 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
-  color: snow;
-}
-
-.top h2 {
-  font-size: xx-large;
-  text-align: center;
-}
-.top p {
-  text-align: center;
-  font-size: larger;
-  margin-top: 10px;
-  margin-bottom: 30px;
-}
 main {
   width: 100%;
   height: 100%;
