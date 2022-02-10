@@ -47,8 +47,13 @@
   padding: 10px 30px;
 }
 .Movie_info table {
-  font-size: x-large;
+  font-size: large;
+  padding: 0 3px;
   padding-bottom: 50px;
+}
+
+.Movie_info table th {
+  padding-right: 10px;
 }
 
 .download{
