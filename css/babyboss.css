@@ -1,3 +1,4 @@
+/* head */
 .head {
   display: flex;
   align-items: center;
@@ -23,15 +24,12 @@
 }
 .head .banner_text p {
   font-size: large;
+  padding:0 11px;
   padding-bottom: 50px;
-  text-align: center;
+  text-align: justify;
 }
 
-@media (max-width: 700px) {
-  .head {
-    flex-direction: column;
-  }
-}
+/* Movie_info */
 .Movie_info {
   width: 100%;
   height: fit-content;
@@ -47,7 +45,7 @@
   padding: 10px 30px;
 }
 .Movie_info table {
-  font-size: large;
+  font-size: x-large;
   padding: 0 3px;
   padding-bottom: 50px;
 }
@@ -56,30 +54,38 @@
   padding-right: 10px;
 }
 
-.download{
-    width: 100%;
-    height: fit-content;
-    background-color: black;
-    color: snow;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+/* download */
+.download {
+  width: 100%;
+  height: fit-content;
+  background-color: black;
+  color: snow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.download h2{
-    font-size: xx-large;
-    padding: 30px;
+.download h2 {
+  font-size: xx-large;
+  padding: 30px;
 }
-.download a button{
-    padding: 10px 50px;
-    cursor: pointer;
-    font-size: large;
-    background-color: black;
-    color: snow;
-    margin-bottom: 30px;
-    border-radius: 20px;
+.download a button {
+  padding: 10px 50px;
+  cursor: pointer;
+  font-size: large;
+  background-color: black;
+  color: snow;
+  margin-bottom: 30px;
+  border-radius: 20px;
 }
-.download a button:hover{
+.download a button:hover {
   background-color: rgb(10, 10, 10);
+}
+
+/* media */
+@media (max-width: 700px) {
+  .head {
+    flex-direction: column;
+  }
 }
