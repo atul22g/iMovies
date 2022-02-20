@@ -9,7 +9,7 @@
   color: snow;
 }
 .head .img_banner {
-  border-radius: 15%;
+  border-radius: 30px;
   padding: 20px;
 }
 .head .banner_text {
@@ -80,7 +80,7 @@
   border-radius: 20px;
 }
 .download a button:hover {
-  background-color: rgb(10, 10, 10);
+  background-color: rgb(17, 17, 17);
 }
 
 /* media */
