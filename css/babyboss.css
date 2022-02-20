@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Caveat:wght@600&family=Kaushan+Script&family=Redressed&display=swap');
 /* head */
 .head {
   display: flex;
@@ -18,12 +19,14 @@
 }
 
 .head .banner_text h2 {
+  font-family: 'Akaya Telivigala', cursive;
   font-size: 2em;
   padding: 10px 0;
   text-align: center;
 }
 .head .banner_text p {
-  font-size: large;
+  font-family: 'Redressed', cursive;
+  font-size: larger;
   padding:0 11px;
   padding-bottom: 50px;
   text-align: justify;
@@ -40,11 +43,13 @@
   align-items: center;
 }
 .Movie_info h2 {
+  font-family: 'Akaya Telivigala', cursive;
   font-size: xx-large;
   text-align: center;
   padding: 10px 30px;
 }
 .Movie_info table {
+  font-family: 'Redressed', cursive;
   font-size: x-large;
   padding: 0 3px;
   padding-bottom: 50px;
@@ -67,10 +72,12 @@
 }
 
 .download h2 {
+  font-family: 'Akaya Telivigala', cursive;
   font-size: xx-large;
   padding: 30px;
 }
 .download a button {
+  font-family: 'Redressed', cursive;
   padding: 10px 50px;
   cursor: pointer;
   font-size: large;
