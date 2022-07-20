@@ -1,13 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Caveat:wght@600&family=Kaushan+Script&family=Redressed&display=swap');
 /* head */
 .section {
+  text-align: center;
   height: fit-content;
   background-color: black;
   color: snow;
+  padding: 25px 20px;
 }
 
-.section p , h2{
-  padding: 10px 5px;
-  width: 90%;
+.section p , h2,h3,h4 , button{
+  padding: 5px 10px;
+  width: 100%;
   text-align: center;
+}
+.screenshort{
+  width: 100%;
+  margin: 10px auto;
+}
+.btn{
+  border-radius: 20px;
+  padding: 10px auto;
+  width: 200px;
+}
+ a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+.btn:hover {
+  background: grey;
+  color: white;
 }
